@@ -1,0 +1,18 @@
+Documentação: 
+
+Exercício número 01: 
+
+Inicialmente foi criado o arquivo Dockerfile, com o comando "touch Dockerfile", logo após abrir o editor de texto "vi Dockerfile". Dentro do editor, adicionar: 
+FROM alpine:3.14
+*Baixou a imagem alpine.* 
+
+CMD ["echo", "Hello World!"]
+*Pediu pro Dockerfile executar no conteiner "Hello World!"*
+Logo após é necessário realizar o build do Dockerfile "docker build -f Dockerfile -r atividade:0.0 . "
+## após o "-r" você pode nomear o arquivo com o nome que preferir, nesse caso atividade:0.0.
+
+Finalizado, para testar o Hello World! basta digitar o comando "docker run atividade:0.0"
+
+Exercício número 02: 
+
+
